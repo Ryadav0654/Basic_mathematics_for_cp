@@ -7,6 +7,7 @@ Signed n-bit interger range:
 Unsigned n-bit interger range:
 0 to 2^(n)-1
 
+
 */
 
 #include<bits/stdc++.h>
