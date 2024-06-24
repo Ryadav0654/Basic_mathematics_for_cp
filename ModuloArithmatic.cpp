@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
     for (int i = 2; i <= n; i++)
     {
         fact = (fact * i) % M;
-        cout << "fact: " << i << " => " << fact << endl;
+        cout << "fact: " << i << "th iteration fact => " << fact << endl;
     }
     cout << fact;
     return 0;
