@@ -69,6 +69,7 @@ int main(int argc, char const *argv[])
     0000101010
     */
 
+
    // count set bit of the a
    int cnt = 0;
    for(int i = 31; i >= 0; i--){
