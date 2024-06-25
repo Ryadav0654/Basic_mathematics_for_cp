@@ -5,14 +5,17 @@ Bit manipulation :
 all even number 0th bit is 0.
 (n&1) is faster than (n%2==0)
 
+*/
 
+/*
 
 - Divide and multipication of 2 (integer division and multiplication):
 (n>>1) is faster than (n/2)
 (n<<1) is faster than (n*2)
 
+*/
 
-
+/*
 -lower case to uppercase and uppercase to lower case conversion:
 binary 'A' = 00100001
 binary 'a' = 01100001
@@ -28,7 +31,9 @@ char ch = 'a';
 ch = (ch & (~(1 << 5))); or a = 'a' |(~(1<< 5))
 or ch = (ch & '_'); or a = (a & '_'), here '_' is underscore
 
+*/
 
+/*
 
 - Clear LSB(make 0th to ith lsb 0):
 (num&(~((1<<(i+1)) -1 )))
@@ -36,8 +41,10 @@ or ch = (ch & '_'); or a = (a & '_'), here '_' is underscore
 - Clear MSB:
 (num & (((1<<(i+1)) -1 )));
 
+*/ 
 
 
+/*
 - check the power of 2:
 (n&(n-1)==0) => means n is the power of 2 else not
 
